@@ -117,9 +117,7 @@ namespace CRUD.ViewModel
         public Curso CursoSelecionado
         {
             get { return _cursoSelecionado; }
-            set { 
-                SetField(ref _cursoSelecionado, value);
-            }
+            set { SetField(ref _cursoSelecionado, value);}
         }
      
     }
