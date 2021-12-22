@@ -1,0 +1,118 @@
+NOME SOBRENOME DATANASCI SEXO ESTADO CIVIL DATAADMIS - ESTADO CIVIL-area E SEXO-nivel SENDO COMBOBOX
+
+SE EU FIZER DE CURSOS
+ID NOME AUTOR DURACAO DATAINICIO AREA NIVEL  LOCAL  
+
+classe para comandos classe dentro de classe como viewmodel
+prestar atencao no new onde to colocando e por que
+*definir o new dentro do construtor da classe
+
+objeto - atributo, acao, estado atual
+classe é o modelo de criaçao do objeto , classe nao tem estado
+a classe controi o objetos e nao tem estado
+
+garbage collector - alocaçao e desalocaçao de memoria
+
+pilares de orientaçao a objetos
+pilares da alocaçao de objetos e por que
+encapsulamento tem mais a ver com segurança 
+encapusular a classe para saber o que disponibilizar a outras
+
+new sql command?
+
+Olhar no livro de C# pilares da poo
+"abstracao,encapsulamento,henrança e polimorfismo"
+
+ele queria atençao nas coisas que ele usa na aula dele
+PASSO A PASSO DO TUTORIAL 
+1. CRIA CLASSES "MODEL"
+2. CRIA A TELA PRINCIPAL
+3. INTERFACE INotifyPropertyChanged "OBSEVADOR?"
+4. CRIA VIEW MODEL
+5. INICIALIZA NA VIEW SEU VM    DataContext = new ViewModel.FuncionariosViewModel();
+6. icommand
+6.1 icommand deletar
+6.2 icommand novo
+6.3 icommand editar
+OLHAR MELHOR INTERFACE ICloneable TBM
+
+NO VM ELE TEM NEW FUNCIONARIOS E ADD (ISSO DEVE SER AQUELA PARADA DO VAZAMENTODE MEMORIA, FUNCIONA MAS TA ERRADO)
+
+DA AULA DE REFORÇO
+
+ATE 5M		new lista (cria objeto novo chamado lista)
+		no codebehind é um novo contexto da tela 
+		dataContext = new MainWindowsVM;
+
+ATE 10M  	tendo um list view referencia ItemSource a novo elemento lista
+		ItemSource = "{Binding lista}"	
+		No Viewmodel mesmo ele ta criando a lista dando a ela
+		acesso a get;set (isso nao é contra a arquitetura mvvm?)
+		Ao criar a lista no MainWindowsVM Public List<string> lista {get;set;}
+
+ATE 15M		ICOMMAND E RELAYCOMMAND EM "https://www.c-sharpcorner.com/UploadFile/20c06b/icommand-and-relaycommand-in-wpf/"
+		cria nova classe chamada relaycommand (entao é normal criar classe para comandos, so nao subdividir)
+		é que o usando o icommand simples usa varias classes e o relay usa uma ta definido isso no artigo
+		cria icomand entre a vm e a classe icomando 
+
+ATE 20M 	
+		eu crio a logica do comando dentro do vm da view
+		depois de criar o comando linkar ele na view
+		fazer o bidding do button so com o command= {binding comando}?
+		mostra-se necessario usar o observer para linkar o view com o comando
+
+ATE 25M		inotifypropertychanged é um observador?
+		declara ele na no inicio da vm
+		uma das açoes do comando é notificar o observador que uma alteraçao foi feita
+		por exemplo em: 
+		comando = new relaycomand((object param)=>
+		{
+		 nome = "demo";
+		 notifica(nome);				
+		});
+		começa explicaçao sobre vazamento de memoria ao tentar
+		usar lista.add("nome") dentro do comando e nao rodar
+
+ATE 30M		explica que ao trabalhar com comando new é semelhante ao trabalhar com "ponteiros"
+		em:
+		public List<string> lista = new List<string>();
+		List<string> lista é atribuido a um endereço de memoria
+		new List<string>() é atribuido a outro endereço de memoria
+		List<string> lista recebe o endereço de memoria de List<string>() isso é o que o comando new faz
+		olhar melhor o comando "new"
+		
+		comando = new relaycomand((object param)=>
+		{
+		 nome = "demo";
+		 lista.add "a";
+		 notifica(nome);
+		 notifica(lista);				
+		});
+		nao funciona devido a end errado na memoria e
+
+		comando = new relaycomand((object param)=>
+		{
+		 nome = "demo";
+		 lista.add "a";
+		 lista = new List<string>(lista); 
+		 notifica(nome);
+		 notifica(lista);				
+		});
+		funciona, mas causa vazamento de memoria
+
+finalizando	adiciona dentro da vm um observablecollection
+		com um comando tipo 
+		public ObservableCollection<string> lista {get;set;}
+		
+		antes do comando lista = new ObservableCollection<string>();
+		a lista vira um observablecollection no vm com isso nao precisa nem notificar lista
+		
+		comando = new relaycomand((object param)=>
+		{
+		 lista.add (nome);
+		 notifica(nome);
+						
+		});
+		
+Passo dia seguinte: 
+adaptar o codigo para uso do relaycommand
