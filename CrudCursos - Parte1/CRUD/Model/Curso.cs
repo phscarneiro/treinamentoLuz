@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace CRUD.Model
 {
- // boa pratica criar construtor da classe aqui (contrutor é o metodo de acesso)
- // passos boas praticas em toda classe variaveis -> construtor -> propriedades -> metodos
+   
+   
     public class Curso : Notifica, ICloneable
     {
         private int _id;
@@ -24,7 +24,6 @@ namespace CRUD.Model
             
         }
 
-        //setfield verifica se a propriedade mudou e se mudou aciona RaisePropertyChange
         public int Id
         {
             get { return _id; }

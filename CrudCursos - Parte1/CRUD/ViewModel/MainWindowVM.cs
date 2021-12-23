@@ -22,34 +22,30 @@ namespace CRUD.ViewModel
 
         public MainWindowVM()
         {
-            Cursos = new ObservableCollection<Model.Curso>();
-            Cursos.Add(new Model.Curso()
+            Cursos = new ObservableCollection<Curso>();
+            CursoSelecionado = Cursos.FirstOrDefault();
+            NovoComando = new RelayCommand(Novo, acessoNovo);
+            EditarComando = new RelayCommand(Editar, Acesso);
+            DeletarComando = new RelayCommand(Deletar, Acesso);
+            Cursos.Add(new Curso()
             {
                 Id = 1,
                 Nome = "Pedro",
                 Autor = "Carneiro",
                 DataInicio = new DateTime(1900, 1, 1),
-                Nivel = Model.Nivel.Intermediario,
-                Area = Model.Area.TI,
+                Nivel = Nivel.Intermediario,
+                Area = Area.TI,
                 Local = "linkedin",
                 Duracao = "120h"
             });
 
-            CursoSelecionado = Cursos.FirstOrDefault();
-
-            NovoComando = new RelayCommand(Novo, PodeNovo);
-            EditarComando = new RelayCommand(Editar, PodeEditar);
-            DeletarComando = new RelayCommand(Deletar, PodeDeletar);
-
         }
 
-        // funcoes parametro do relaycomand
-        private bool PodeDeletar(object parametro)
+        private bool Acesso(object parametro)
         {
             MainWindowVM vm = parametro as MainWindowVM;
             return vm != null && CursoSelecionado != null;
         }
-
         private void Deletar(object parametro)
         {
        
@@ -57,17 +53,11 @@ namespace CRUD.ViewModel
             CursoSelecionado = Cursos.FirstOrDefault();
         }
 
-        private bool PodeEditar(object parametro)
-        {
-            MainWindowVM viewModel = parametro as MainWindowVM;
-            return viewModel != null && viewModel.CursoSelecionado != null;
-        }
-
         private void Editar(object parametro)
         {
         
             Curso cloneCurso = (Curso)CursoSelecionado.Clone();
-            Window fw = new CursoJanela();
+            CursoJanela fw = new CursoJanela();
             fw.DataContext = cloneCurso;
             fw.ShowDialog();
 
@@ -83,14 +73,11 @@ namespace CRUD.ViewModel
             }
         }
 
-         private bool PodeNovo(object parametro)
+         private bool acessoNovo(object parametro)
         {
             return parametro is MainWindowVM;
         }
-        //()=>{};
-        // por isso no relaycommand atraves de arrow function  e private deixa aberto
-        // sempre declarar explicitamente o tipo da variavel
-        // diferença composiçao e henrança
+
         private void Novo(object parametro)
         {
 
@@ -112,7 +99,6 @@ namespace CRUD.ViewModel
                 CursoSelecionado = curso;
             }
         }
-        //fim funcoes parametro
 
         public Curso CursoSelecionado
         {

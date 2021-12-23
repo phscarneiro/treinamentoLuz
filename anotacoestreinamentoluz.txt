@@ -116,3 +116,13 @@ finalizando	adiciona dentro da vm um observablecollection
 		
 Passo dia seguinte: 
 adaptar o codigo para uso do relaycommand
+	Boas praticas  de prog:
+		Passos boas praticas em toda classe: variaveis -> construtor(contrutor é o metodo de acesso) -> propriedades -> metodos
+		Os tipos tem de ser declarados explicitamente e nao usando "var" embora a linguagem suporte
+		Cuidado ao nomear as classes, exemplo a classe responsavel pela mainwindowviewmodel tem que ter nome "mainwindowvm" ou semelhante
+		 
+
+eu tenho que entender cada parte do código, ao apresentar o código é meu
+
+revisando fundamentos de poo
+	abstração. cada classe é unica, possui propriedades e metodos 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUD.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace CRUD
 		private readonly Action<object> _execute;
 		private readonly Predicate<object> _canExecute;
 
-		public RelayCommand(Action<object> execute)
+        public RelayCommand(Action<object> execute)
 			: this(execute, null)
 		{
 		}
