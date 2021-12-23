@@ -125,4 +125,27 @@ adaptar o codigo para uso do relaycommand
 eu tenho que entender cada parte do código, ao apresentar o código é meu
 
 revisando fundamentos de poo
-	abstração. cada classe é unica, possui propriedades e metodos 
+programaçao estruturada x programaçao orientada a objetos
+dados totais -> procedimentos x dado do objeto -> propriedades e metodos do objeto
+(programaçao em C puro preocupa com memoria e usa ponteiros)
+	abstração. cada classe é unica, possui propriedades e metodos e abstrair é dentro do que se precisa representar 
+		"abstrair" apenas as propriedades e metodos necessarios. "Esconder a parte de implementação e deixar apenas
+		interface de uso do objeto
+		(reduçao da complexidade e do impacto a mudanças)
+		conceito relacionado a criaçao das classes e objetos
+		classes sao moldes de objetos
+	
+	encapsulamento. proteger o acesso para aumentar confiabilidade e segurança
+		(reduçao na complexidade + aumento da reusabilidade)
+		proteger acesso desejado e indesejado do objeto
+
+	herança. uma classe herda características de outras classes para evitar repeticao de escrita de codigo
+		 herança "pura" a classe é igual a classe que a gerou
+		 herança ... a classe herda metodos e propriedades, mas também tem seus proprios metodos e propriedades
+		 (eliminar repetiçao de codigo)	
+	
+	polimorfismo. tem 2 tipos uma classe pai tem um metodo e passa este metodo para as classes filhos que os implementa da sua propria maneira
+			e uma class tem varios metodos com o mesmo nome que sao implementados de maneira diferente "reagindo a o parametro passado"
+		 (remoçao de codigo desnecessario)		
+
+	
