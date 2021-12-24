@@ -20,8 +20,9 @@ namespace CRUD.Model
         private string _local;
         private string _duracao;
 
-        public Curso() {
-            
+        public Curso()
+        {
+
         }
 
         public int Id

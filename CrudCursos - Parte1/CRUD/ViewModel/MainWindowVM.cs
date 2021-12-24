@@ -29,7 +29,7 @@ namespace CRUD.ViewModel
             DeletarComando = new RelayCommand(Deletar, Acesso);
             Cursos.Add(new Curso()
             {
-                Id = 1,
+                Id = 0,
                 Nome = "Pedro",
                 Autor = "Carneiro",
                 DataInicio = new DateTime(1900, 1, 1),

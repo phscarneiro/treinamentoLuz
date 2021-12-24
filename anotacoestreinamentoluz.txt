@@ -138,14 +138,39 @@ dados totais -> procedimentos x dado do objeto -> propriedades e metodos do obje
 	encapsulamento. proteger o acesso para aumentar confiabilidade e segurança
 		(reduçao na complexidade + aumento da reusabilidade)
 		proteger acesso desejado e indesejado do objeto
+		no codigo o que é public e o que é private da classe
 
 	herança. uma classe herda características de outras classes para evitar repeticao de escrita de codigo
 		 herança "pura" a classe é igual a classe que a gerou
 		 herança ... a classe herda metodos e propriedades, mas também tem seus proprios metodos e propriedades
 		 (eliminar repetiçao de codigo)	
+		 		
 	
 	polimorfismo. tem 2 tipos uma classe pai tem um metodo e passa este metodo para as classes filhos que os implementa da sua propria maneira
 			e uma class tem varios metodos com o mesmo nome que sao implementados de maneira diferente "reagindo a o parametro passado"
-		 (remoçao de codigo desnecessario)		
+		 (remoçao de codigo desnecessario)
+		 virtual na classe mae e overrride nas classes filhas indica em C# polimorfismo nos metodos		
 
-	
+
+herança x composiçao
+		herança a classe filha herda metodos e propriedades e pode usar direto os metodos da classe mae
+		composiçao dentro da classe eu crio novos objetos para usar suas propriedades e metodos 
+		"a classe fica composta de outros objetos"
+		em vez de usar direto os metodos e classes como na herança dentro do escopo da classe
+		eu crio os novos objetos de outras classes exemplo:
+		public class carro{
+		//motor é outra classe
+		private motor m = new motor();
+			
+			// assim a minha classe caro usa o acelerar da classe motor
+			public void dirigir(){
+			m.acelerar();
+			}
+		}
+		O macete que o povo usa é se "tem um" para para composicao e "é um" para herança
+		quando necessario aplicar este tipo de relacionamento.
+
+livros ref sobre programacao
+	Clean Code escrito por Robert C. Martin (também conhecido por Uncle Bob),
+	Refactoring escrito por Martin Fowler 
+	e Domain Driven Design (ou conhecido também por apenas "DDD") escrito por Eric Evans 
