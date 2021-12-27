@@ -21,7 +21,7 @@ namespace CRUD.ViewModel
         private Curso _cursoSelecionado;
 
         public CursoPaginaVM()
-        {
+        {            
             Cursos = new ObservableCollection<Curso>();
             CursoSelecionado = Cursos.FirstOrDefault();
             NovoComando = new RelayCommand(Novo, acessoNovo);
@@ -43,13 +43,10 @@ namespace CRUD.ViewModel
 
         private bool Acesso(object parametro)
         {
-          //  CursoPaginaVM vm = parametro as CursoPaginaVM;
-           // return vm != null && CursoSelecionado != null;
             return  CursoSelecionado != null;
         }
         private void Deletar(object parametro)
         {
-       
             Cursos.Remove(CursoSelecionado);
             CursoSelecionado = Cursos.FirstOrDefault();
         }
