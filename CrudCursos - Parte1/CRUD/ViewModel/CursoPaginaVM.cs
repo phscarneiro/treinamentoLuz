@@ -43,8 +43,9 @@ namespace CRUD.ViewModel
 
         private bool Acesso(object parametro)
         {
-            CursoPaginaVM vm = parametro as CursoPaginaVM;
-            return vm != null && CursoSelecionado != null;
+          //  CursoPaginaVM vm = parametro as CursoPaginaVM;
+           // return vm != null && CursoSelecionado != null;
+            return  CursoSelecionado != null;
         }
         private void Deletar(object parametro)
         {
