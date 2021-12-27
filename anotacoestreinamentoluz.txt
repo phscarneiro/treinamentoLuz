@@ -134,11 +134,14 @@ dados totais -> procedimentos x dado do objeto -> propriedades e metodos do obje
 		(reduçao da complexidade e do impacto a mudanças)
 		conceito relacionado a criaçao das classes e objetos
 		classes sao moldes de objetos
+		capacidade de extrair os atributos e açoes essenciais de algo, nao focar no exemplo de algo
 	
 	encapsulamento. proteger o acesso para aumentar confiabilidade e segurança
 		(reduçao na complexidade + aumento da reusabilidade)
 		proteger acesso desejado e indesejado do objeto
 		no codigo o que é public e o que é private da classe
+		encapsulamento sempre que possivel para evitar acoplamento do codigo e surgimento de bugs
+
 
 	herança. uma classe herda características de outras classes para evitar repeticao de escrita de codigo
 		 herança "pura" a classe é igual a classe que a gerou
@@ -174,3 +177,8 @@ livros ref sobre programacao
 	Clean Code escrito por Robert C. Martin (também conhecido por Uncle Bob),
 	Refactoring escrito por Martin Fowler 
 	e Domain Driven Design (ou conhecido também por apenas "DDD") escrito por Eric Evans 
+
+Além do livro: 
+path de poo design
+começando por Programming Foundations: Object-Oriented-Design : OliviaStoneBaronStone
+book uml destilled martin fowler?

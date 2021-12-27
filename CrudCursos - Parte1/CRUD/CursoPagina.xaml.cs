@@ -23,7 +23,7 @@ namespace CRUD
         public CursoPagina()
         {
             InitializeComponent();
-            DataContext = new ViewModel.MainWindowVM();
+            DataContext = new ViewModel.CursoPaginaVM();
         }
     }
 }

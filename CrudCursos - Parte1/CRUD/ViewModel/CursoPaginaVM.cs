@@ -11,7 +11,7 @@ using System.Windows.Input;
 namespace CRUD.ViewModel
 {   
     
-    public class MainWindowVM : Notifica
+    public class CursoPaginaVM : Notifica
     {
         public ObservableCollection<Curso> Cursos { get; private set; }
         public ICommand NovoComando { get; private set; }
@@ -20,7 +20,7 @@ namespace CRUD.ViewModel
 
         private Curso _cursoSelecionado;
 
-        public MainWindowVM()
+        public CursoPaginaVM()
         {
             Cursos = new ObservableCollection<Curso>();
             CursoSelecionado = Cursos.FirstOrDefault();
@@ -43,7 +43,7 @@ namespace CRUD.ViewModel
 
         private bool Acesso(object parametro)
         {
-            MainWindowVM vm = parametro as MainWindowVM;
+            CursoPaginaVM vm = parametro as CursoPaginaVM;
             return vm != null && CursoSelecionado != null;
         }
         private void Deletar(object parametro)
@@ -75,7 +75,7 @@ namespace CRUD.ViewModel
 
          private bool acessoNovo(object parametro)
         {
-            return parametro is MainWindowVM;
+            return parametro is CursoPaginaVM;
         }
 
         private void Novo(object parametro)
