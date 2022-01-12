@@ -1,16 +1,14 @@
-﻿using CRUD.Model;
+﻿using CRUD.Conexoes;
+using CRUD.Model;
+using Npgsql;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Input;
 
 namespace CRUD.ViewModel
-{   
-    
+{
+
     public class CursoPaginaVM : Notifica
     {
         public ObservableCollection<Curso> Cursos { get; private set; }
@@ -21,12 +19,15 @@ namespace CRUD.ViewModel
         private Curso _cursoSelecionado;
 
         public CursoPaginaVM()
-        {            
+        {
+
+            postgreSql.testeconexao();
             Cursos = new ObservableCollection<Curso>();
             CursoSelecionado = Cursos.FirstOrDefault();
             NovoComando = new RelayCommand(Novo, acessoNovo);
             EditarComando = new RelayCommand(Editar, Acesso);
             DeletarComando = new RelayCommand(Deletar, Acesso);
+
             Cursos.Add(new Curso()
             {
                 Id = 0,
@@ -36,9 +37,8 @@ namespace CRUD.ViewModel
                 Nivel = Nivel.Intermediario,
                 Area = Area.TI,
                 Local = "linkedin",
-                Duracao = "120h"
+                Duracao = "120"
             });
-
         }
 
         private bool Acesso(object parametro)
@@ -103,6 +103,6 @@ namespace CRUD.ViewModel
             get { return _cursoSelecionado; }
             set { SetField(ref _cursoSelecionado, value);}
         }
-     
+
     }
 }
