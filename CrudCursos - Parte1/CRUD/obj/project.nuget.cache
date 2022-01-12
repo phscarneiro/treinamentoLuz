@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "9DrjYcYV/D5/6o5pxZ6If1843bLU4o4sZX/L9H6A2dfHp3gl4gYvKNF4sf1sZvIvNmS4ee3f034864UCmhWj9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pedro\\source\\repos\\treinamentoluz\\CrudCursos - Parte1\\CRUD\\CRUD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\dapper.entityframework\\2.0.90\\dapper.entityframework.2.0.90.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.1\\microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\npgsql\\6.0.2\\npgsql.6.0.2.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.2\\npgsql.entityframeworkcore.postgresql.6.0.2.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Dapper.EntityFramework 2.0.90' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Dapper.EntityFramework",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

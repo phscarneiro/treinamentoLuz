@@ -1,0 +1,116 @@
+C:\Users\pedro\source\repos\CRUD\CRUD\bin\Debug\net6.0-windows\CRUD.exe
+C:\Users\pedro\source\repos\CRUD\CRUD\bin\Debug\net6.0-windows\CRUD.deps.json
+C:\Users\pedro\source\repos\CRUD\CRUD\bin\Debug\net6.0-windows\CRUD.runtimeconfig.json
+C:\Users\pedro\source\repos\CRUD\CRUD\bin\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\CRUD\CRUD\bin\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\CRUD\CRUD\bin\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\FuncionariosWindow.g.cs
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.cache
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.lref
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\FuncionariosWindow.baml
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.g.resources
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfo.cs
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\CRUD.genruntimeconfig.cache
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\FuncionarioWindow.g.cs
+C:\Users\pedro\source\repos\CRUD\CRUD\obj\Debug\net6.0-windows\FuncionarioWindow.baml
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\bin\Debug\net6.0-windows\CRUD.exe
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\bin\Debug\net6.0-windows\CRUD.deps.json
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\bin\Debug\net6.0-windows\CRUD.runtimeconfig.json
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\bin\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\bin\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\bin\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CursoJanela.g.cs
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CursoPagina.g.cs
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.cache
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.lref
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CursoJanela.baml
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CursoPagina.baml
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.g.resources
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfo.cs
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\model atualizado\CrudCursos - Copia\CRUD\obj\Debug\net6.0-windows\CRUD.genruntimeconfig.cache
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.exe
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.deps.json
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.runtimeconfig.json
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoJanela.g.cs
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoPagina.g.cs
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.cache
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.lref
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoJanela.baml
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoPagina.baml
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.g.resources
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfo.cs
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.genruntimeconfig.cache
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.exe
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.deps.json
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.runtimeconfig.json
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoJanela.g.cs
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoPagina.g.cs
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.cache
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD_MarkupCompile.lref
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoJanela.baml
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CursoPagina.baml
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.g.resources
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.AssemblyInfo.cs
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\ref\CRUD.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.pdb
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.genruntimeconfig.cache
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\obj\Debug\net6.0-windows\CRUD.csproj.CopyComplete
+C:\Users\pedro\source\repos\treinamentoluz\CrudCursos - Parte1\CRUD\bin\Debug\net6.0-windows\Dapper.EntityFramework.dll
